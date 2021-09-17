@@ -1,0 +1,43 @@
+.red{
+    background-color: red;
+    
+    font-weight: bolder;
+}
+input{
+    border-width: 0!important;
+    text-align: center;
+    overflow:scroll;
+   
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+ appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input {
+    appearance: textfield;
+}
+.day,.second,.mintue{
+    border: 1px solid firebrick;
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+}
+.hour{
+
+    border: 1px solid firebrick;
+    border-radius: 4px;
+    padding: 6px;
+    text-align: center;
+}
+.numbers{
+    margin-left: 100px;
+    width: 30px;
+    height: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
